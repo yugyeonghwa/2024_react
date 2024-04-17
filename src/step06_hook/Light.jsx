@@ -8,5 +8,5 @@ function Light({room, on, toggle}) {
         </button>
     )
 }
-// memo는 props 값이 변경되지 않는 한 호출되지 않는다.
+// memo는 props 값이 변경되지 않는 한 호출되지 않는다..
 export default React.memo(Light);
