@@ -41,7 +41,6 @@ class NotificationList extends React.Component{
                 this.setState({
                     notifications: [],
                 });
-                clearInterval(timer);
             }
         }, 1000);
     }
