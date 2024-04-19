@@ -7,6 +7,14 @@ import Ex01 from "./step09_list/Ex01";
 import Ex02 from "./step09_list/Ex02";
 import NameForm from "./step10_form/NameForm";
 import SelectForm from "./step10_form/SelectForm";
+import MultiSelectForm from "./step10_form/MultiSelectForm";
+import CheckBoxsFrom from "./step10_form/CheckBoxsForm";
+import RadioButtons from "./step10_form/RadioButtons";
+import SignUpForm from "./step10_form/SignUpForm";
+import Calc from "./step11_SharedState/Calc";
+import Calc2 from "./step11_SharedState/Calc2";
+import Calc3 from "./step11_SharedState/Calc3";
+import Calc4 from "./step11_SharedState/Calc4";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -86,7 +94,23 @@ root.render(
 
     {/* <NameForm /> */}
 
-    <SelectForm />
+    {/* <SelectForm /> */}
+
+    {/* <MultiSelectForm /> */}
+
+    {/* <CheckBoxsFrom /> */}
+
+    {/* <RadioButtons /> */}
+
+    {/* <SignUpForm /> */}
+
+    {/* <Calc /> */}
+
+    {/* <Calc2 /> */}
+
+    {/* <Calc3 /> */}
+
+    <Calc4 />
   </React.StrictMode>
 );
 
